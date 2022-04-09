@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
     guid: f0e271a149f777c46b9ad5307736eaf8
@@ -17,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelectMenu.unity
     guid: d99b0513127f0ba4e8f22a528df7ceb3
+  - enabled: 1
+    path: Assets/Scenes/FrictionLevel.unity
+    guid: 203ea357c4a21bd4c844f7322faeae3d
   m_configObjects: {}

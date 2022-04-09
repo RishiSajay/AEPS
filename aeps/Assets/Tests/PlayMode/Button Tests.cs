@@ -4,16 +4,18 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-public class NewTestScript
+public class MenuSuite
 {
-    // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-    // `yield return null;` to skip a frame.
-    [UnityTest]
-    public IEnumerator Start()
-    {
-        var gameObject = new GameObject();
-        var startButton = gameObject.AddComponent<TitleScreen>();
-
-        Assert.AreEqual(1, startButton.LoadMenu());
-    }
+   
+    //[UnityTest]
+    //public IEnumerator StartTest()
+    //{
+    //    var gameObject = new GameObject();
+    //    var titleScreen = gameObject.AddComponent<TitleScreen>();
+    //    Debug.Log(SceneManager.GetActiveScene().buildIndex);
+    //    titleScreen.LoadMenu();
+    //    Debug.Log(SceneManager.GetActiveScene().buildIndex+1);
+    //    Assert.AreEqual(1, SceneManager.GetActiveScene().buildIndex);
+    //    yield break;
+    //}
 }

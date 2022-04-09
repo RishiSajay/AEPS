@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    ////private void Start()
+    ////{
+    ////    Debug.Log("Hello");
+    ////}
+
     public void LoadLevelSelectMenu() //Changes to Level Select Menu
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -12,6 +17,7 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame() //Quits Game
     {
-        Application.Quit();       
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        //Application.Quit();       
     }
 }
